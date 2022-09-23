@@ -68,7 +68,7 @@ export default defineConfig(({ command, mode }) => {
         { find: '@', replacement: path.resolve(__dirname, 'src') },
         // fix less import by: @import ~
         // less import no support webpack alias '~' · Issue #2185 · vitejs/vite
-        { find: /^~antd/, replacement: "antd" },
+        // { find: /^~antd/, replacement: "antd" },
       ],
     },
     // server: {
