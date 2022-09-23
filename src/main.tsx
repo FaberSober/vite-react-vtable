@@ -4,6 +4,11 @@ import {
   BrowserRouter as Router,
   useRoutes,
 } from 'react-router-dom'
+import { ConfigProvider } from 'antd';
+
+// 国际化
+import 'moment/dist/locale/zh-cn';
+import zhCN from 'antd/es/locale/zh_CN';
 
 import 'antd/dist/antd.variable.min.css';
 import './index.less'
@@ -26,7 +31,9 @@ const app = createRoot(document.getElementById('root')!)
 app.render(
   <StrictMode>
     <Router>
-      <App />
+      <ConfigProvider locale={zhCN}>
+        <App />
+      </ConfigProvider>
     </Router>
   </StrictMode>,
 )
