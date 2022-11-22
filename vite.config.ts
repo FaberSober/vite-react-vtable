@@ -47,19 +47,19 @@ export default defineConfig(({ command, mode }) => {
         generateScopedName: '[name]__[local]___[hash:base64:5]',
         hashPrefix: 'prefix',
       },
-      preprocessorOptions: {
-        less: {
-          // 支持内联 JavaScript
-          javascriptEnabled: true,
-          // 重写 less 变量，定制样式
-          modifyVars: {
-            // 修改antd主题色
-            'primary-color': '#1890FF',
-            'link-color': '#1890FF',
-            'border-radius-base': '2px',
-          },
-        },
-      },
+      // preprocessorOptions: {
+      //   less: {
+      //     // 支持内联 JavaScript
+      //     javascriptEnabled: true,
+      //     // 重写 less 变量，定制样式
+      //     modifyVars: {
+      //       // 修改antd主题色
+      //       'primary-color': '#1890FF',
+      //       'link-color': '#1890FF',
+      //       'border-radius-base': '2px',
+      //     },
+      //   },
+      // },
     },
     resolve: {
       alias: [

@@ -7,10 +7,11 @@ import {
 import { ConfigProvider } from 'antd';
 
 // 国际化
-import 'moment/dist/locale/zh-cn';
-import zhCN from 'antd/es/locale/zh_CN';
+import 'dayjs/locale/en';
+// import 'dayjs/locale/zh-cn';
+import enUS from 'antd/locale/en_US';
+// import zhCN from 'antd/es/locale/zh_CN';
 
-import 'antd/dist/antd.variable.min.css';
 import './index.less'
 
 import routes from '~react-pages'
@@ -31,7 +32,7 @@ const app = createRoot(document.getElementById('root')!)
 app.render(
   <StrictMode>
     <Router>
-      <ConfigProvider locale={zhCN}>
+      <ConfigProvider locale={enUS}>
         <App />
       </ConfigProvider>
     </Router>
