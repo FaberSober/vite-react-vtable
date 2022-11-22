@@ -9,8 +9,10 @@ A Vitejs 3.x + React18 + Antd4.x project template.
 | vite-plugin-imp | vite dynamic load（FIXME: conflict with antd style，need to be fixed.） | https://github.com/onebay/vite-plugin-imp |
 
 # Main Features
-1. generate route by pages dir；
-2. dynamic change antd UI theme；
+[X] 1. fast build(using vite);
+[X] 2. generate route by pages dir；
+[ ] 3. dynamic change antd UI theme；
+[ ] 4. dynamic change locale；
 
 # Get Started
 1. install dependencies

@@ -8,9 +8,9 @@ import { ConfigProvider } from 'antd';
 
 // 国际化
 import 'dayjs/locale/en';
-// import 'dayjs/locale/zh-cn';
+import 'dayjs/locale/zh-cn';
 import enUS from 'antd/locale/en_US';
-// import zhCN from 'antd/es/locale/zh_CN';
+import zhCN from 'antd/es/locale/zh_CN';
 
 import './index.less'
 
@@ -32,7 +32,7 @@ const app = createRoot(document.getElementById('root')!)
 app.render(
   <StrictMode>
     <Router>
-      <ConfigProvider locale={enUS}>
+      <ConfigProvider locale={zhCN}>
         <App />
       </ConfigProvider>
     </Router>
