@@ -38,7 +38,7 @@ yarn build
 
 # update npm dependencies
 
-yarn add -D ncu
+npm install -g npm-check-updates
 
 ```
 ncu -u --timeout 120000
