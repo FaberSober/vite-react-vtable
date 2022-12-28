@@ -2,6 +2,7 @@
   "name": "react",
   "private": true,
   "scripts": {
+    "ncu": "ncu -u --timeout 120000",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
