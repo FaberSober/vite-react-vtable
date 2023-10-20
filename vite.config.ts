@@ -44,8 +44,8 @@ export default defineConfig(({ command, mode }) => {
       modules: { // css模块化 文件以.module.[css|less|scss]结尾
         // 回调必须返回 `local`，`global`，或者 `pure`
         mode: (resourcePath) => {
-          // 形如xx.module.less的样式，会使用local模块化编译。其他的则返回全局样式
-          if (/\.module\.(css|less)$/i.test(resourcePath)) {
+          // 形如xx.module.scss的样式，会使用local模块化编译。其他的则返回全局样式
+          if (/\.module\.(css|scss)$/i.test(resourcePath)) {
             return "local";
           }
           return "global";

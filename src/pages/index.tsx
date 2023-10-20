@@ -74,6 +74,10 @@ export default function App() {
         <div style={{ marginTop: 12 }}>
           <DatePicker />
         </div>
+
+        <div style={{ marginTop: 24 }}>
+          <span className="foo">SCSS</span>
+        </div>
       </div>
     </ConfigProvider>
   );
