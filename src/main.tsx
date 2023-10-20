@@ -1,4 +1,4 @@
-import { StrictMode, Suspense } from 'react';
+import { Suspense } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, useRoutes } from 'react-router-dom';
 
@@ -16,9 +16,7 @@ function App() {
 const app = createRoot(document.getElementById('root')!);
 
 app.render(
-  <StrictMode>
-    <Router>
-      <App />
-    </Router>
-  </StrictMode>
+  <Router>
+    <App />
+  </Router>
 );
