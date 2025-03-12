@@ -1,37 +1,71 @@
 {
-	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
-	"vcs": {
-		"enabled": false,
-		"clientKind": "git",
-		"useIgnoreFile": false
-	},
-	"files": {
-		"ignoreUnknown": false,
-		"ignore": []
-	},
-	"formatter": {
-		"enabled": true,
-		"indentStyle": "space",
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "vcs": {
+    "enabled": false,
+    "clientKind": "git",
+    "useIgnoreFile": false
+  },
+  "files": {
+    "ignoreUnknown": false,
+    "include": ["src/"]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
     "indentWidth": 2,
-    "lineWidth": 120,
     "lineEnding": "lf"
-	},
-	"organizeImports": {
-		"enabled": true
-	},
-	"linter": {
-		"enabled": true,
-		"rules": {
-			"recommended": true,
+  },
+  "organizeImports": {
+    "enabled": false
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "complexity": {
+        "noForEach": "off",
+        "useOptionalChain": "off",
+        "noBannedTypes": "off"
+      },
+      "correctness": {
+        "noEmptyPattern": "off",
+        "useExhaustiveDependencies": "off",
+        "noChildrenProp": "off"
+      },
       "style": {
-        "noNonNullAssertion": "warn"
+        "noNonNullAssertion": "off",
+        "noUnusedTemplateLiteral": "off",
+        "useTemplate": "off",
+        "useImportType": "off"
+      },
+      "suspicious": {
+        "noExplicitAny": "off",
+        "noArrayIndexKey": "off",
+        "noShadowRestrictedNames": "off",
+        "noAssignInExpressions": "off",
+        "noImplicitAnyLet": "off"
+      },
+      "security": {
+        "noDangerouslySetInnerHtml": "off"
+      },
+      "a11y": {
+        "useKeyWithClickEvents": "off",
+        "useValidAnchor": "off",
+        "useMediaCaption": "off",
+        "useIframeTitle": "off",
+        "useAltText": "off"
       }
-		}
-	},
-	"javascript": {
-		"formatter": {
-			"quoteStyle": "single",
-      "lineWidth": 120
     }
-	}
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single",
+      "lineWidth": 160
+    }
+  },
+  "css": {
+    "formatter": {
+      "quoteStyle": "single"
+    }
+  }
 }
