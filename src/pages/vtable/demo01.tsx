@@ -31,7 +31,7 @@ const option = {
 export default function demo01() {
   return (
     <div>
-      <ListTable option={option} height={'500px'} />
+      <ListTable option={option} height={'500px'} width="100%" />
     </div>
   )
 }

@@ -39,7 +39,8 @@ export default function App() {
           <p>index.tsx</p>
 
           <ol>
-            <li><Link to="/vtable/demo01">demo01</Link></li>
+            <li><Link to="/vtable/demo01">demo01 - Basic</Link></li>
+            <li><Link to="/vtable/demo02">demo02 - Edit</Link></li>
           </ol>
 
           <Link to="/blog">blog</Link> |<Link to="/xxx">not exists</Link>
