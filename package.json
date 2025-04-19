@@ -14,12 +14,13 @@
   },
   "dependencies": {
     "@ant-design/icons": "5.5.2",
+    "@visactor/react-vtable": "^1.18.0",
     "antd": "5.23.0",
     "clsx": "^2.1.1",
     "dayjs": "1.11.13",
     "lodash": "^4.17.21",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "react-router-dom": "7.1.1"
   },
   "devDependencies": {
@@ -27,8 +28,8 @@
     "@iconify-json/logos": "^1.2.4",
     "@types/lodash": "^4.17.14",
     "@types/node": "22.10.5",
-    "@types/react": "19.0.3",
-    "@types/react-dom": "19.0.2",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.1",
     "@types/react-router-config": "5.0.11",
     "@types/react-router-dom": "5.3.3",
     "@unocss/core": "^65.4.0",

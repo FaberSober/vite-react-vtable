@@ -22,28 +22,28 @@ code {
 }
 
 body {
-  /* Ê¹ÓÃ tailwind-config/tailwind.config.js ÖĞµÄthemeÅäÖÃ */
+  /* ä½¿ç”¨ tailwind-config/tailwind.config.js ä¸­çš„themeé…ç½® */
   --primary-color: #42aff3;
   --primary-dark: #1081c9;
-  --fa-bg-color: #fff; /* ÊÊÅäÖ÷Ìâ-±³¾°É« */
-  --fa-bg-color-hover: #eee; /* ÊÊÅäÖ÷Ìâ-±³¾°É« */
-  --fa-bg-color2: #eee; /* ÊÊÅäÖ÷Ìâ-±³¾°É«-2¼¶ */
-  --fa-bg-color-highlight: #1c5e88; /* ÊÊÅäÖ÷Ìâ-±³¾°É«-¸ßÁÁ */
-  --fa-bg-color-highlight-hover: #1081c9; /* ÊÊÅäÖ÷Ìâ-±³¾°É«-¸ßÁÁ-hover */
-  --fa-text-color: #353535; /* ÊÊÅäÖ÷Ìâ-ÎÄ×ÖÑÕÉ« */
-  --fa-text-color2: #353535; /* ÊÊÅäÖ÷Ìâ-ÎÄ×ÖÑÕÉ«-2¼¶ */
-  --fa-text-color-hover: #353535; /* ÊÊÅäÖ÷Ìâ-ÎÄ×ÖÑÕÉ« */
-  --fa-text-color-highlight: #FFFFFF; /* ÊÊÅäÖ÷Ìâ-ÎÄ×ÖÑÕÉ«-¸ßÁÁ */
-  --fa-text-color-light100: #999; /* ÊÊÅäÖ÷Ìâ-ÎÄ×ÖÑÕÉ«-ÒÑ¶ÁÀàĞÍ */
-  --fa-text-color-disable: rgba(0, 0, 0, 0.25); /* ÊÊÅäÖ÷Ìâ-ÎÄ×ÖÑÕÉ« */
-  --fa-subtitle-color: #666; /* ÊÊÅäÖ÷Ìâ-ÎÄ×ÖÑÕÉ«-¸±±êÌâ */
-  --fa-border-color: #ddd; /* ÊÊÅäÖ÷Ìâ-±ß¿òÑÕÉ« */
-  --fa-border-dark-color: #66666666; /* ÊÊÅäÖ÷Ìâ-±ß¿òÑÕÉ« */
-  --fa-border-darker-color: #333; /* ÊÊÅäÖ÷Ìâ-±ß¿òÑÕÉ« */
-  --fa-bg-grey: #f7f7f7; /* ÊÊÅäÖ÷Ìâ-±³¾°É«-»ÒÉ« */
-  --fa-bg-grey2: #e7e7e7; /* ÊÊÅäÖ÷Ìâ-±³¾°É«-»ÒÉ« */
-  --fa-bg-selected: #ddd; /* ÊÊÅäÖ÷Ìâ-±³¾°É«-»ÒÉ« */
-  --separator-border: #eee; /* ÊÊÅäÖ÷Ìâ-allocate-·Ö¸îÃæ°åµÄ·Ö¸îÏßÑÕÉ« */
+  --fa-bg-color: #fff; /* é€‚é…ä¸»é¢˜-èƒŒæ™¯è‰² */
+  --fa-bg-color-hover: #eee; /* é€‚é…ä¸»é¢˜-èƒŒæ™¯è‰² */
+  --fa-bg-color2: #eee; /* é€‚é…ä¸»é¢˜-èƒŒæ™¯è‰²-2çº§ */
+  --fa-bg-color-highlight: #1c5e88; /* é€‚é…ä¸»é¢˜-èƒŒæ™¯è‰²-é«˜äº® */
+  --fa-bg-color-highlight-hover: #1081c9; /* é€‚é…ä¸»é¢˜-èƒŒæ™¯è‰²-é«˜äº®-hover */
+  --fa-text-color: #353535; /* é€‚é…ä¸»é¢˜-æ–‡å­—é¢œè‰² */
+  --fa-text-color2: #353535; /* é€‚é…ä¸»é¢˜-æ–‡å­—é¢œè‰²-2çº§ */
+  --fa-text-color-hover: #353535; /* é€‚é…ä¸»é¢˜-æ–‡å­—é¢œè‰² */
+  --fa-text-color-highlight: #FFFFFF; /* é€‚é…ä¸»é¢˜-æ–‡å­—é¢œè‰²-é«˜äº® */
+  --fa-text-color-light100: #999; /* é€‚é…ä¸»é¢˜-æ–‡å­—é¢œè‰²-å·²è¯»ç±»å‹ */
+  --fa-text-color-disable: rgba(0, 0, 0, 0.25); /* é€‚é…ä¸»é¢˜-æ–‡å­—é¢œè‰² */
+  --fa-subtitle-color: #666; /* é€‚é…ä¸»é¢˜-æ–‡å­—é¢œè‰²-å‰¯æ ‡é¢˜ */
+  --fa-border-color: #ddd; /* é€‚é…ä¸»é¢˜-è¾¹æ¡†é¢œè‰² */
+  --fa-border-dark-color: #66666666; /* é€‚é…ä¸»é¢˜-è¾¹æ¡†é¢œè‰² */
+  --fa-border-darker-color: #333; /* é€‚é…ä¸»é¢˜-è¾¹æ¡†é¢œè‰² */
+  --fa-bg-grey: #f7f7f7; /* é€‚é…ä¸»é¢˜-èƒŒæ™¯è‰²-ç°è‰² */
+  --fa-bg-grey2: #e7e7e7; /* é€‚é…ä¸»é¢˜-èƒŒæ™¯è‰²-ç°è‰² */
+  --fa-bg-selected: #ddd; /* é€‚é…ä¸»é¢˜-èƒŒæ™¯è‰²-ç°è‰² */
+  --separator-border: #eee; /* é€‚é…ä¸»é¢˜-allocate-åˆ†å‰²é¢æ¿çš„åˆ†å‰²çº¿é¢œè‰² */
 
   --fa-bg-grey-darker: #e1e1e1;
   --fa-hover-bg: #e1e1e1;
@@ -70,7 +70,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* ÊÊÅäÖ÷ÌâÉ« */
+  /* é€‚é…ä¸»é¢˜è‰² */
   background-color: var(--fa-bg-color);
   color: var(--fa-text-color);
 }
@@ -133,7 +133,7 @@ ul {
   /*display: flex;*/
 }
 
-/*----------------------------------------- È«¾ÖÍ¨ÓÃ×Ô¶¨ÒåÑùÊ½ -----------------------------------------*/
+/*----------------------------------------- å…¨å±€é€šç”¨è‡ªå®šä¹‰æ ·å¼ -----------------------------------------*/
 .fa-full-content {
   position: absolute;
   top: 0;
@@ -671,18 +671,18 @@ ul {
 }
 
 .fa-break-word {
-  word-break:break-all; /* Ó¢ÎÄ */
-  white-space:pre-wrap; /* ÖĞÎÄ */
+  word-break:break-all; /* è‹±æ–‡ */
+  white-space:pre-wrap; /* ä¸­æ–‡ */
 }
 
 .fa-keep-word {
-  word-break: keep-all; /* Ó¢ÎÄ */
-  white-space: nowrap; /* ÖĞÎÄ */
+  word-break: keep-all; /* è‹±æ–‡ */
+  white-space: nowrap; /* ä¸­æ–‡ */
 }
 
 .fa-word-ellipse {
-  word-break: keep-all; /* Ó¢ÎÄ */
-  white-space: nowrap; /* ÖĞÎÄ */
+  word-break: keep-all; /* è‹±æ–‡ */
+  white-space: nowrap; /* ä¸­æ–‡ */
   overflow: hidden;
   text-overflow: ellipsis;
 }
