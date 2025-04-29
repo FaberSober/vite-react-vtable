@@ -37,12 +37,19 @@ export default function App() {
       <div className="fa-p12">
         <div>
           <p>index.tsx</p>
-
           <ol>
-            <li><Link to="/vtable/demo01">demo01 - Basic</Link></li>
-            <li><Link to="/vtable/demo02">demo02 - Edit</Link></li>
+            <li>
+              <Link to="/vtable/demo01">demo01 - Basic</Link>
+            </li>
+            <li>
+              <Link to="/vtable/demo02">demo02 - Edit</Link>
+            </li>
           </ol>
-
+          <ol>
+            <li>
+              <Link to="/video/demo01">demo01 - Basic</Link>
+            </li>
+          </ol>
           <Link to="/blog">blog</Link> |<Link to="/xxx">not exists</Link>
           <div className="fa-flex-column">
             <Link to="/unocss/demo01">unocss/demo01</Link>
