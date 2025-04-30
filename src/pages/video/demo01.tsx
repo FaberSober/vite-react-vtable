@@ -8,12 +8,15 @@ import { Button, Space } from 'antd';
  */
 export default function VideoDemo01() {
   const accessToken = 'at.3uzs2p0x5tqhjhht9gi0a9nab3cgodzh-5c16wxp2p3-0zeddu5-pdw5bgc6n';
-  const deviceSerial = 'FW3557066';
+  // const deviceSerial = 'FW3557066';
+  // const url = 'ezopen://open.ys7.com/FW3557066/1.live';
+  const deviceSerial = 'D70947963';
+  const url = 'ezopen://open.ys7.com/D70947963/1.live';
 
   useEffect(() => {
     const UIKitDEMO = new EZUIKit.EZUIKitPlayer({
       id: `ezuikit-player`,
-      url: 'ezopen://open.ys7.com/FW3557066/1.live',
+      url,
       accessToken,
       template: 'security',
     });

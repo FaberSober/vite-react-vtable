@@ -1,27 +1,26 @@
 import React from 'react';
 import { ListTable } from '@visactor/react-vtable';
 
-
 const option = {
   columns: [
     {
       field: '0',
-      title: 'name'
+      title: 'name',
     },
     {
       field: '1',
-      title: 'age'
+      title: 'age',
     },
     {
       field: '2',
-      title: 'gender'
+      title: 'gender',
     },
     {
       field: '3',
-      title: 'hobby'
-    }
+      title: 'hobby',
+    },
   ],
-  records: new Array(1000).fill(['John', 18, 'male', '🏀'])
+  records: new Array(1000).fill(['John', 18, 'male', '🏀']),
 };
 
 /**
@@ -33,5 +32,5 @@ export default function demo01() {
     <div>
       <ListTable option={option} height={'500px'} width="100%" />
     </div>
-  )
+  );
 }

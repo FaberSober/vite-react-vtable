@@ -2,7 +2,6 @@ import React from 'react';
 import { ListTable, register } from '@visactor/react-vtable';
 import { DateInputEditor, InputEditor, ListEditor, TextAreaEditor } from '@visactor/vtable-editors';
 
-
 const inputEditor = new InputEditor();
 const numberEditor = new InputEditor();
 const textAreaEditor = new TextAreaEditor();
@@ -15,7 +14,6 @@ register.editor('number-editor', numberEditor);
 register.editor('textArea-editor', textAreaEditor);
 register.editor('date-editor', dateInputEditor);
 register.editor('list-editor', listEditor);
-
 
 /**
  * @author xu.pengfei
@@ -51,19 +49,19 @@ export default function demo02() {
               title: 'hobby',
               width: 200,
               editor: 'name-editor',
-            }
+            },
           ],
           records: [
             ['John', 18, '男', '🏀'],
             ['Mick', 17, '男', 'football'],
-          ]
+          ],
         }}
         height={'500px'}
         editCellTrigger="click"
-        onChangeCellValue={arg => {
+        onChangeCellValue={(arg) => {
           console.log('onChangeCellValue', arg);
         }}
       />
     </div>
-  )
+  );
 }
